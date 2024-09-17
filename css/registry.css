@@ -1,0 +1,19 @@
+Table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+th, td{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+
+}
+th{
+    background-color:blue;
+    color: white;
+}
+ tbody tr:nth-of-type(odd){
+
+    background-color:lightgray;
+ }
